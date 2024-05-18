@@ -1,4 +1,9 @@
 body {
-    background-color: #BEE9E8;
-    
+    background-color:  peachpuff;
+    text-align: center;
+    line-height: 2xp;
+}
+h1 {
+    text-align: center;
+    font-size: 24xp;
 }
