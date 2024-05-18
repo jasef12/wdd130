@@ -1,9 +1,58 @@
 body {
-    background-color:  blue;
+    background-color:  #1B2845;
+}
+.quote-1 {
+    line-height: 25px;
+    font-size: 14px;
+    color: burlywood;
     text-align: center;
-    line-height: 2xp;
+}
+.source {
+    padding-top: 10px;
+    font-size: 17px;
+    font-style: bold;
+    color: burlywood;
+    text-align: center;
 }
 h1 {
     text-align: center;
-    font-size: 24xp;
+    font-size: 35px;
+    color: burlywood;
+}
+h1:hover {
+    color: white;
+}
+.column-middle {
+    text-align: left;
+    line-height: 15px;
+    font-weight: bold;
+    color: white;
+    width: 25%;
+    margin: 0 auto;
+}
+img {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.quote-2 {
+    width: 18%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    color: burlywood;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+footer {
+    margin: 0 auto;
+    line-height: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
 }
