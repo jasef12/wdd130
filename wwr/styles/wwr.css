@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald&family=Sedan+SC&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +10,8 @@ nav, a {
     text-align: center;
     color: #EDE9EA;
     text-decoration: none;
+    font: oswald;
+    padding: 35px;
 }
 nav a:hover {
     color: #6D454C;
@@ -16,11 +22,17 @@ nav a:hover {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+.card-img {
+    border: 10px solid black;
+}
 .button-box {
     text-align: center;
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -28,6 +40,13 @@ main section {
 }
 body {
     background-color: #75ABBC;
+    font-family: oswald, caveat, sedan;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #E39774;
@@ -35,23 +54,37 @@ header {
 .book, .join {
     color: #EDE9EA;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #E39774;
 }
 .book:hover, .join:hover {
     color: #6D454C;
 }
 .msg {
     background-color: #75ABBC;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #6D454C;
+    font-family: caveat, oswald, sedan;
 }
 .msg p {
     color: #6D454C;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #75ABBC;
     color: #EDE9EA;
     font-size: 1.2em;
+    padding: 24px 50px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a {
     color: #EDE9EA;
@@ -65,6 +98,9 @@ footer p a:hover {
 }
 .home-title {
     color: #6D454C;
+    font-family: caveat, oswald, sedan;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #6D454C;
@@ -72,6 +108,13 @@ h4 {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
