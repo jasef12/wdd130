@@ -185,6 +185,71 @@ h4 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6D454C;
 }
+.blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    row-gap: 100px;
+}
+.banner {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: 100%;
+    height: 600px;
+}
+h3 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    justify-self: center;
+    font-size: 50px;
+    color: white;
+}
+.two {
+    width: 700px;
+    height: 450px;
+    justify-self: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E39774;
+}
+.row-2 {
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+    width: 500px;
+    font-size: 28px;
+    color: #6D454C;
+}
+.row-3 {
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+    width: 600px;
+    font-size: 28px;
+    color: #6D454C;
+}
+.three {
+    justify-self: center;
+    align-self: center;
+    width: 700px;
+    height: 450px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E39774;
+}
+.row-4 {
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+    grid-column: 1/3;
+    font-size: 28px;
+    color: #6D454C;
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
