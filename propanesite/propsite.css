@@ -14,27 +14,23 @@ body {
     justify-items: center;
     box-sizing: border-box;
 }
-#content {
-    max-width: 1600px;
-    margin: 0 200px;
-}
-.nav {
-    display: grid;
+nav {
+    display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 75px;
+    position: relative;
     background-color: #ED1C24;
     font-size: 30px;
     justify-items: center;
     align-items: center;
+    width: 100%;
+    z-index: 1;
 }
 nav, a {
     color: white;
 }
 nav, a:hover {
     color: #1C2C4A;
-}
-.login {
-    justify-items: end;
 }
 .gridthree {
     display: grid;
@@ -71,7 +67,7 @@ div {
     font-size: 30px;
     color: white;
 }
-.button:hover, a:hover {
+.button:hover {
     color: #1C2C4A;
 }
 .div {
