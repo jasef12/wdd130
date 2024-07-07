@@ -30,6 +30,9 @@ body {
 nav, a {
     color: white;
 }
+nav, a:hover {
+    color: #1C2C4A;
+}
 .login {
     justify-items: end;
 }
