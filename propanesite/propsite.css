@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 body {
     margin-left: 200px;
     margin-right: 200px;
-    background-color: #1C2C4A;
+    background-color: black;
     font-family: raleway, kanit;
+}
+main {
+    color: white;
 }
 .maingrid {
     display: grid;
@@ -13,6 +21,7 @@ body {
     margin-bottom: 50px;
     justify-items: center;
     box-sizing: border-box;
+    width: 100%;
 }
 nav {
     display: inline-grid;
@@ -87,4 +96,43 @@ div {
     margin-right: auto;
     margin-top: -75px;
     height: 500px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: repeat(3,300px);
+    row-gap: 50px;
+    width: 100%;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 45px;
+    font-family: raleway;
+    margin: 100px auto;
+    width: 30%;
+    background-color: #ED1C24;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.paragraph {
+    font-size: 30px;
+    text-align: center;
+}
+.prices {
+    grid-row: 1/4;
+    grid-column: 2/3;
+    align-self: center;
+    justify-items: center;
+    font-size: 50px;
+    list-style-type: none;
+    width: fit-content;
+}
+.one, .two, .three, .four, .five {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.imagethree {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    place-self: center;
 }
