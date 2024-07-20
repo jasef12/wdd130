@@ -1,8 +1,9 @@
 body {
     margin-left: 200px;
     margin-right: 200px;
-    background-color: #1C2C4A;
+    background-color: black;
     font-family: raleway, kanit;
+    color: white;
 }
 nav {
     display: inline-grid;
@@ -42,10 +43,9 @@ nav, a:hover {
     align-items: center;
     margin-top: 200px;
 }
-/* Bordered form */
-form {
-    border: 3px solid #f1f1f1;
-  }
+.signup {
+  margin-top: 200px;
+}
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
@@ -53,7 +53,6 @@ form {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
     box-sizing: border-box;
   }
   
